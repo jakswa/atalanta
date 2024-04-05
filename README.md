@@ -1,15 +1,8 @@
-# shiva
+# Atalanta
 
-To install dependencies:
+This is a work in progress.
 
-```bash
-bun install
-```
+## Development
 
-To run:
-
-```bash
-bun run index.ts
-```
-
-This project was created using `bun init` in bun v1.0.26. [Bun](https://bun.sh) is a fast all-in-one JavaScript runtime.
+The dev commands are in `Procfile.dev`. I run these with
+ultraman, a cargo/rust lib you can `cargo install`.
