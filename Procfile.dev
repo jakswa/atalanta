@@ -1,0 +1,2 @@
+server: bunx serve static
+css: bun x tailwindcss -i config/tailwind.css --config config/tailwind.config.js -o static/styles.css --watch
