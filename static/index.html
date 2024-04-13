@@ -1,22 +1,250 @@
 <!doctype html>
-<html>
+<html class="h-full">
+  <head>
+    <link rel="stylesheet" href="styles.css"></link>
+    <script src='https://unpkg.com/maplibre-gl@latest/dist/maplibre-gl.js'></script>
+    <link href='https://unpkg.com/maplibre-gl@latest/dist/maplibre-gl.css' rel='stylesheet' />
+    <link rel="icon" href="boar.webp" />
+    <link rel="apple-touch-icon" href="boar.webp" />
 
-<head>
-  <link rel="stylesheet" href="styles.css">
-  </link>
-  <script src='https://unpkg.com/maplibre-gl@latest/dist/maplibre-gl.js'></script>
-  <link href='https://unpkg.com/maplibre-gl@latest/dist/maplibre-gl.css' rel='stylesheet' />
-  <link rel="icon" href="boar.webp" />
-  <link rel="apple-touch-icon" href="boar.webp" />
-
-  <script type="module" src="index.js"></script>
-</head>
-
-<body>
-  <div class="flex flex-col h-full">
-    <div class="h-48" id="map"></div>
-    <div class="flex-grow text-green-400 border-y border-red-100 text-4xl">
-      Wow! It's Alive
+    <script type="module" src="index.js"></script>
+  </head>
+  <body class="h-full dark:invert">
+    <div class="flex flex-col lg:flex-row h-full">
+      <div class="p-4 text-lg text-black bg-white h-1/2 lg:h-full lg:w-1/2 overflow-y-scroll">
+        <h1 class="py-4 text-4xl font-bold">Wow! It's Alive</h2>
+        <p>
+          Here's some text. And it's typed. And wow. And
+          let's keep going. Talk and talk, more talking.
+          Here's some text. And it's typed. And wow. And
+          let's keep going. Talk and talk, more talking.
+          Here's some text. And it's typed. And wow. And
+          let's keep going. Talk and talk, more talking.
+          Here's some text. And it's typed. And wow. And
+          let's keep going. Talk and talk, more talking.
+          Here's some text. And it's typed. And wow. And
+          let's keep going. Talk and talk, more talking.
+          Here's some text. And it's typed. And wow. And
+          let's keep going. Talk and talk, more talking.
+          Here's some text. And it's typed. And wow. And
+          let's keep going. Talk and talk, more talking.
+          Here's some text. And it's typed. And wow. And
+          let's keep going. Talk and talk, more talking.
+          Here's some text. And it's typed. And wow. And
+          let's keep going. Talk and talk, more talking.
+        </p>
+        <h2 class="py-4 text-2xl font-bold">Wow! It's Alive</h2>
+        <p>
+          Here's some text. And it's typed. And wow. And
+          let's keep going. Talk and talk, more talking.
+          Here's some text. And it's typed. And wow. And
+          let's keep going. Talk and talk, more talking.
+          Here's some text. And it's typed. And wow. And
+          let's keep going. Talk and talk, more talking.
+          Here's some text. And it's typed. And wow. And
+          let's keep going. Talk and talk, more talking.
+          Here's some text. And it's typed. And wow. And
+          let's keep going. Talk and talk, more talking.
+          Here's some text. And it's typed. And wow. And
+          let's keep going. Talk and talk, more talking.
+          Here's some text. And it's typed. And wow. And
+          let's keep going. Talk and talk, more talking.
+          Here's some text. And it's typed. And wow. And
+          let's keep going. Talk and talk, more talking.
+          Here's some text. And it's typed. And wow. And
+          let's keep going. Talk and talk, more talking.
+        </p>
+        <h2 class="py-4 text-2xl font-bold">Wow! It's Alive</h2>
+        <p>
+          Here's some text. And it's typed. And wow. And
+          let's keep going. Talk and talk, more talking.
+          Here's some text. And it's typed. And wow. And
+          let's keep going. Talk and talk, more talking.
+          Here's some text. And it's typed. And wow. And
+          let's keep going. Talk and talk, more talking.
+          Here's some text. And it's typed. And wow. And
+          let's keep going. Talk and talk, more talking.
+          Here's some text. And it's typed. And wow. And
+          let's keep going. Talk and talk, more talking.
+          Here's some text. And it's typed. And wow. And
+          let's keep going. Talk and talk, more talking.
+          Here's some text. And it's typed. And wow. And
+          let's keep going. Talk and talk, more talking.
+          Here's some text. And it's typed. And wow. And
+          let's keep going. Talk and talk, more talking.
+          Here's some text. And it's typed. And wow. And
+          let's keep going. Talk and talk, more talking.
+        </p>
+        <h2 class="py-4 text-2xl font-bold">Wow! It's Alive</h2>
+        <p>
+          Here's some text. And it's typed. And wow. And
+          let's keep going. Talk and talk, more talking.
+          Here's some text. And it's typed. And wow. And
+          let's keep going. Talk and talk, more talking.
+          Here's some text. And it's typed. And wow. And
+          let's keep going. Talk and talk, more talking.
+          Here's some text. And it's typed. And wow. And
+          let's keep going. Talk and talk, more talking.
+          Here's some text. And it's typed. And wow. And
+          let's keep going. Talk and talk, more talking.
+          Here's some text. And it's typed. And wow. And
+          let's keep going. Talk and talk, more talking.
+          Here's some text. And it's typed. And wow. And
+          let's keep going. Talk and talk, more talking.
+          Here's some text. And it's typed. And wow. And
+          let's keep going. Talk and talk, more talking.
+          Here's some text. And it's typed. And wow. And
+          let's keep going. Talk and talk, more talking.
+        </p>
+        <h2 class="py-4 text-2xl font-bold">Wow! It's Alive</h2>
+        <p>
+          Here's some text. And it's typed. And wow. And
+          let's keep going. Talk and talk, more talking.
+          Here's some text. And it's typed. And wow. And
+          let's keep going. Talk and talk, more talking.
+          Here's some text. And it's typed. And wow. And
+          let's keep going. Talk and talk, more talking.
+          Here's some text. And it's typed. And wow. And
+          let's keep going. Talk and talk, more talking.
+          Here's some text. And it's typed. And wow. And
+          let's keep going. Talk and talk, more talking.
+          Here's some text. And it's typed. And wow. And
+          let's keep going. Talk and talk, more talking.
+          Here's some text. And it's typed. And wow. And
+          let's keep going. Talk and talk, more talking.
+          Here's some text. And it's typed. And wow. And
+          let's keep going. Talk and talk, more talking.
+          Here's some text. And it's typed. And wow. And
+          let's keep going. Talk and talk, more talking.
+        </p>
+        <h2 class="py-4 text-2xl font-bold">Wow! It's Alive</h2>
+        <p>
+          Here's some text. And it's typed. And wow. And
+          let's keep going. Talk and talk, more talking.
+          Here's some text. And it's typed. And wow. And
+          let's keep going. Talk and talk, more talking.
+          Here's some text. And it's typed. And wow. And
+          let's keep going. Talk and talk, more talking.
+          Here's some text. And it's typed. And wow. And
+          let's keep going. Talk and talk, more talking.
+          Here's some text. And it's typed. And wow. And
+          let's keep going. Talk and talk, more talking.
+          Here's some text. And it's typed. And wow. And
+          let's keep going. Talk and talk, more talking.
+          Here's some text. And it's typed. And wow. And
+          let's keep going. Talk and talk, more talking.
+          Here's some text. And it's typed. And wow. And
+          let's keep going. Talk and talk, more talking.
+          Here's some text. And it's typed. And wow. And
+          let's keep going. Talk and talk, more talking.
+        </p>
+        <h2 class="py-4 text-2xl font-bold">Wow! It's Alive</h2>
+        <p>
+          Here's some text. And it's typed. And wow. And
+          let's keep going. Talk and talk, more talking.
+          Here's some text. And it's typed. And wow. And
+          let's keep going. Talk and talk, more talking.
+          Here's some text. And it's typed. And wow. And
+          let's keep going. Talk and talk, more talking.
+          Here's some text. And it's typed. And wow. And
+          let's keep going. Talk and talk, more talking.
+          Here's some text. And it's typed. And wow. And
+          let's keep going. Talk and talk, more talking.
+          Here's some text. And it's typed. And wow. And
+          let's keep going. Talk and talk, more talking.
+          Here's some text. And it's typed. And wow. And
+          let's keep going. Talk and talk, more talking.
+          Here's some text. And it's typed. And wow. And
+          let's keep going. Talk and talk, more talking.
+          Here's some text. And it's typed. And wow. And
+          let's keep going. Talk and talk, more talking.
+        </p>
+        <h2 class="py-4 text-2xl font-bold">Wow! It's Alive</h2>
+        <p>
+          Here's some text. And it's typed. And wow. And
+          let's keep going. Talk and talk, more talking.
+          Here's some text. And it's typed. And wow. And
+          let's keep going. Talk and talk, more talking.
+          Here's some text. And it's typed. And wow. And
+          let's keep going. Talk and talk, more talking.
+          Here's some text. And it's typed. And wow. And
+          let's keep going. Talk and talk, more talking.
+          Here's some text. And it's typed. And wow. And
+          let's keep going. Talk and talk, more talking.
+          Here's some text. And it's typed. And wow. And
+          let's keep going. Talk and talk, more talking.
+          Here's some text. And it's typed. And wow. And
+          let's keep going. Talk and talk, more talking.
+          Here's some text. And it's typed. And wow. And
+          let's keep going. Talk and talk, more talking.
+          Here's some text. And it's typed. And wow. And
+          let's keep going. Talk and talk, more talking.
+        </p>
+        <h2 class="py-4 text-2xl font-bold">Wow! It's Alive</h2>
+        <p>
+          Here's some text. And it's typed. And wow. And
+          let's keep going. Talk and talk, more talking.
+          Here's some text. And it's typed. And wow. And
+          let's keep going. Talk and talk, more talking.
+          Here's some text. And it's typed. And wow. And
+          let's keep going. Talk and talk, more talking.
+          Here's some text. And it's typed. And wow. And
+          let's keep going. Talk and talk, more talking.
+          Here's some text. And it's typed. And wow. And
+          let's keep going. Talk and talk, more talking.
+          Here's some text. And it's typed. And wow. And
+          let's keep going. Talk and talk, more talking.
+          Here's some text. And it's typed. And wow. And
+          let's keep going. Talk and talk, more talking.
+          Here's some text. And it's typed. And wow. And
+          let's keep going. Talk and talk, more talking.
+          Here's some text. And it's typed. And wow. And
+          let's keep going. Talk and talk, more talking.
+        </p>
+        <h2 class="py-4 text-2xl font-bold">Wow! It's Alive</h2>
+        <p>
+          Here's some text. And it's typed. And wow. And
+          let's keep going. Talk and talk, more talking.
+          Here's some text. And it's typed. And wow. And
+          let's keep going. Talk and talk, more talking.
+          Here's some text. And it's typed. And wow. And
+          let's keep going. Talk and talk, more talking.
+          Here's some text. And it's typed. And wow. And
+          let's keep going. Talk and talk, more talking.
+          Here's some text. And it's typed. And wow. And
+          let's keep going. Talk and talk, more talking.
+          Here's some text. And it's typed. And wow. And
+          let's keep going. Talk and talk, more talking.
+          Here's some text. And it's typed. And wow. And
+          let's keep going. Talk and talk, more talking.
+          Here's some text. And it's typed. And wow. And
+          let's keep going. Talk and talk, more talking.
+          Here's some text. And it's typed. And wow. And
+          let's keepy-4 p going. Talk and talk, more talking.
+        </p>
+        <h2 class="text-2xl font-bold">Wow! It's Alive</h2>
+        <p>
+          Here's some text. And it's typed. And wow. And
+          let's keep going. Talk and talk, more talking.
+          Here's some text. And it's typed. And wow. And
+          let's keep going. Talk and talk, more talking.
+          Here's some text. And it's typed. And wow. And
+          let's keep going. Talk and talk, more talking.
+          Here's some text. And it's typed. And wow. And
+          let's keep going. Talk and talk, more talking.
+          Here's some text. And it's typed. And wow. And
+          let's keep going. Talk and talk, more talking.
+          Here's some text. And it's typed. And wow. And
+          let's keep going. Talk and talk, more talking.
+          Here's some text. And it's typed. And wow. And
+          let's keep going. Talk and talk, more talking.
+          Here's some text. And it's typed. And wow. And
+          let's keep going. Talk and talk, more talking.
+          Here's some text. And it's typed. And wow. And
+          let's keep going. Talk and talk, more talking.
+        </p>
+      </div>
+      <div class="min-h-1/2 lg:min-w-1/2 grow"><div class="w-full h-full" id="map"></div></div>
     </div>
   </div>
 </body>
